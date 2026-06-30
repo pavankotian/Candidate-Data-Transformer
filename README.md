@@ -30,6 +30,11 @@ Run the pipeline using the command-line interface:
 ``` bash
 python main.py --ats ats_input.json --notes recruiter_notes.txt --config runtime_config.json
 ```
+For alternate configuration
+
+```bash
+python main.py --ats ats_input.json --notes recruiter_notes.txt --config runtime_config_alt.json --pretty
+```
 
 ### 4. Project Artifacts
 
