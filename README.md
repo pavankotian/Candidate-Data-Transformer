@@ -31,6 +31,16 @@ Run the pipeline using the command-line interface:
 python main.py --ats ats_input.json --notes recruiter_notes.txt --config runtime_config.json
 ```
 
+### 4. Project Artifacts
+
+- /outputs: Contains sample_output.json, which demonstrates the pipeline's output using the provided sample inputs. 
+
+- /tests: Contains test_pipeline.py. You can run the test suite using:
+
+```bash
+python -m unittest tests/test_pipeline.py
+```
+
 ## System Highlights
 
 -   **Deterministic Identity Resolution:** Uses primary key
