@@ -1,0 +1,98 @@
+{
+  "flags": {
+    "include_provenance": true,
+    "include_overall_confidence": true
+  },
+  "fields": [
+    {
+      "from": "candidate_id",
+      "path": "id",
+      "on_missing": "error",
+      "format": null
+    },
+    {
+      "from": "full_name",
+      "path": "name",
+      "on_missing": "error",
+      "format": "titlecase"
+    },
+    {
+      "from": "emails[0]",
+      "path": "primary_email",
+      "on_missing": "null",
+      "format": "lowercase"
+    },
+    {
+      "from": "emails[1]",
+      "path": "secondary_email",
+      "on_missing": "omit",
+      "format": "lowercase"
+    },
+    {
+      "from": "phones[0]",
+      "path": "phone",
+      "on_missing": "null",
+      "format": "e164"
+    },
+    {
+      "from": "location.city",
+      "path": "location.city",
+      "on_missing": "null",
+      "format": null
+    },
+    {
+      "from": "location.country",
+      "path": "location.country_code",
+      "on_missing": "null",
+      "format": "iso-alpha2"
+    },
+    {
+      "from": "skills[].name",
+      "path": "skills_csv",
+      "on_missing": "null",
+      "format": "join_comma"
+    },
+    {
+      "from": "skills[].name",
+      "path": "skill_count",
+      "on_missing": "null",
+      "format": "count"
+    },
+    {
+      "from": "experience[0].company",
+      "path": "current_employer",
+      "on_missing": "null",
+      "format": null
+    },
+    {
+      "from": "experience[0].title",
+      "path": "current_title",
+      "on_missing": "null",
+      "format": null
+    },
+    {
+      "from": "experience[0].start",
+      "path": "current_role_start",
+      "on_missing": "null",
+      "format": "yyyy-mm"
+    },
+    {
+      "from": "education[0].institution",
+      "path": "education.university",
+      "on_missing": "omit",
+      "format": null
+    },
+    {
+      "from": "links.linkedin",
+      "path": "linkedin_url",
+      "on_missing": "omit",
+      "format": null
+    },
+    {
+      "from": "links.portfolio",
+      "path": "portfolio_url",
+      "on_missing": "omit",
+      "format": null
+    }
+  ]
+}

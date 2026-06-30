@@ -1,0 +1,53 @@
+{
+  "Full_Name": "Jane Doe",
+  "email_PRIMARY": "jane.doe@email.com",
+  "email_secondary": "j.doe@workmail.com",
+  "phone_RAW": "(555) 019-2834",
+  "location": {
+    "city_name": "San Francisco",
+    "state_region": "California",
+    "cntry": "United States"
+  },
+  "social_profiles": {
+    "linkedin_url": "https://linkedin.com/in/janedoe",
+    "gh": "https://github.com/janedoe"
+  },
+  "work_history": [
+    {
+      "employer": "Acme Corp",
+      "job_title": "Lead Software Engineer",
+      "date_from": "2022/10/01",
+      "date_to": "Present",
+      "responsibilities": "Led a cross-functional team of 8 engineers to deliver a real-time data pipeline handling 2M events/day. Drove adoption of React for the front-end dashboard suite."
+    },
+    {
+      "employer": "Beta Systems Inc.",
+      "job_title": "Software Engineer II",
+      "date_from": "2019/03/15",
+      "date_to": "2022/09/30",
+      "responsibilities": "Built and maintained RESTful microservices in Python (FastAPI). Owned CI/CD pipelines on GitHub Actions."
+    }
+  ],
+  "education_history": [
+    {
+      "school": "University of California, Berkeley",
+      "qualification": "Bachelor of Science",
+      "subject": "Computer Science",
+      "start_yr": "2015/08/01",
+      "end_yr": "2019/05/15"
+    }
+  ],
+  "skills_list": [
+    "Python",
+    "python",
+    "React",
+    "react.js",
+    "FastAPI",
+    "PostgreSQL",
+    "Docker",
+    "GitHub Actions"
+  ],
+  "ats_record_id": "ATS-00471823",
+  "ats_created_at": "2024/05/12",
+  "ats_source_system": "Greenhouse"
+}

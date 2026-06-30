@@ -1,0 +1,32 @@
+Recruiter Call Notes — Jane Doe
+Interviewed by: Marcus Webb
+Date of Call: May 14, 2024
+---
+
+Spoke with Jane today. Really strong candidate, highly recommend moving forward.
+
+She's currently working at Acme Corp as a Lead Engineer — been there since Oct 2022
+and is still active there (Present). She described her work as leading a data
+infrastructure project and building out their front-end in React. She mentioned Python
+is her primary backend language and she's been using it for about 6 years. Also brought
+up FastAPI and PostgreSQL unprompted, which was impressive.
+
+Before Acme, she was at Beta Systems Inc. as a Software Engineer II. Rough dates she
+gave were around March 2019 to September 2022. Sounded like solid foundational work,
+mainly microservices.
+
+Education: UC Berkeley, BS in Computer Science, graduated around May 2019.
+
+Skills she highlighted: Python, React, FastAPI, PostgreSQL, Docker.
+Also mentioned dabbling in Kubernetes but said she wouldn't call it a core skill yet.
+
+Contact info:
+  Email: jane.doe@email.com
+  Phone: +1 (555) 019-2834
+
+LinkedIn she said is linkedin.com/in/janedoe — haven't verified.
+
+Overall impression: 9/10. Strong technical depth, communicates clearly.
+Would be a great fit for the Principal Engineer opening on the data platform team.
+
+-- End of Notes --
